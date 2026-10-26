@@ -34,7 +34,7 @@ python sanitizer.py --dir rename_practice --ext csv --dry-run
 Use a custom prefix:
 
 ```powershell
-python sanitizer.py --dir prefix_test --ext csv --prefix bioops_ --dry-run
+python sanitizer.py --dir rename_practice --ext csv --prefix bioops_ --dry-run
 ```
 
 Rename files:
