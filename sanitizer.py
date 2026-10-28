@@ -72,7 +72,7 @@ if data_dir.is_dir():
 
 # Handle a path that exists but isn't a directory.
 elif data_dir.exists():
-    parser.error(f"ERROR: The provided path exists, but it is not a directory: {data_dir}")
+    parser.error(f" The provided path exists, but it is not a directory: {data_dir}")
 
 # Handle a path that doesn't exist.
 else:
